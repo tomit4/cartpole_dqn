@@ -34,7 +34,7 @@ def plot_durations(show_result=False, episode_durations=[]):
     plt.xlabel("Training Episodes")
     plt.ylabel("Duration")
 
-    plt.plot(durations_t.numpy(), label="Episode Duration")
+    plt.plot(durations_t.numpy(), label="Episode Duration (Rewards)")
 
     if len(durations_t) >= 100:
         means = durations_t.unfold(0, 100, 1).mean(1).view(-1)
