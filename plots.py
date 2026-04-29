@@ -57,11 +57,11 @@ def plot_epsilon(eps_history):
     plt.figure(2, figsize=(5, 4))
     plt.clf()
 
-    plt.title("Exploration Schedule (ε)")
-    plt.xlabel("Training Episodes")
-    plt.ylabel("Probability of Random Action")
+    plt.title("Exploration Schedule")
+    plt.xlabel("Environment Steps")
+    plt.ylabel("ε (Probability of Random Action)")
 
-    plt.plot(eps_history, label="ε (Exploration Rate)")
+    plt.plot(eps_history, label="Exploration Rate")
 
     plt.legend()
     plt.tight_layout()
