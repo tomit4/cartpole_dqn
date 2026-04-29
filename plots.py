@@ -22,7 +22,7 @@ def plot_durations(show_result=False, episode_durations=[]):
     Returns:
         None
     """
-    plt.figure(1, figsize=(6, 4))
+    plt.figure(1)
     durations_t = torch.tensor(episode_durations, dtype=torch.float)
 
     if show_result:
@@ -54,7 +54,7 @@ def plot_epsilon(eps_history):
     decreases over time in epsilon-greedy policy.
     """
 
-    plt.figure(2, figsize=(5, 4))
+    plt.figure(2)
     plt.clf()
 
     plt.title("Exploration Schedule")
