@@ -101,10 +101,10 @@ so the number of episodes is reduced (50).
 
 - On NVIDIA systems with
   [CUDA](https://nvidia.custhelp.com/app/answers/detail/a_id/2136/~/how-to-install-cuda)
-  installed, GPU acceleration will be used.
+  installed, GPU acceleration will be used (600 episodes).
 - On macOS with Apple Silicon,
   [Metal Performance Shaders (MPS)](https://developer.apple.com/documentation/metal)
-  will be used.
+  will be used (600 episodes).
 
 ## Disclaimer
 
