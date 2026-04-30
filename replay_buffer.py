@@ -6,7 +6,7 @@ from transition import Transition
 
 class ReplayBuffer(object):
     """
-    Stores environment transition for experience replay.
+    Stores environment transitions for experience replay.
 
     The replay buffer enables off-policy learning by storing past
     transitions and sampling random minibatches during training.
