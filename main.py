@@ -108,7 +108,7 @@ def optimize_model():
     A minibatch of transitions is sampled from the replay buffer to
     compute target Q-values using the Bellman update equation. The
     predicted Q-values from the policy network are then compared against
-    three targets using Huber loss.
+    one target using Huber loss.
 
     Gradients are computed through backpropagation and applied using the
     optimizer to improve the policy network.
