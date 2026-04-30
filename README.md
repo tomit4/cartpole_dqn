@@ -1,4 +1,4 @@
-# Deep Q-Learning Cartpole DQN
+# Deep Q-Learning CartPole DQN
 
 ## Introduction
 
